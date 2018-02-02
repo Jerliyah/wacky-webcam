@@ -45,3 +45,8 @@ video {
 p {
     margin: 0;
 }
+
+div#filters {
+    display: flex;
+    flex-direction: column;
+}
