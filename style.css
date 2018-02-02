@@ -1,0 +1,47 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+canvas {
+    align-self: center
+}
+
+video {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    height: 25vh;
+}
+
+#snaps-ctn {
+    display: flex;
+    flex-direction: column;
+    max-width: 10vw;
+    overflow-y: scroll;
+}
+
+#snaps-ctn > a {
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#snaps-ctn > a:hover {
+    background: linear-gradient(to right, #66ccff, #6699ff);
+    color:white;
+}
+
+#snaps-ctn img {
+    width: 100%;
+}
+
+p {
+    margin: 0;
+}
